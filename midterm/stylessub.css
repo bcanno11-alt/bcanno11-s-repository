@@ -1,0 +1,38 @@
+/*brayden cannon, 10/16/2025*/
+body {
+	background-color: lightblue;
+	color: #4B3832;
+}
+header {
+	font-family: Trebuchet MS, monospace;
+	font-size: 48;
+	color:  black;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+}
+a{	
+	font-family: Courier, monospace;
+	font-size: 24px;
+	color: black;
+	border-style: solid;
+	border-width: 2px;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Courier, monospace;
+	font-size: 24px;
+	color: black;
+	border-style: solid;
+	border-width: 2px;
+	font-weight: bold;
+}
+main {
+	background-color: #FFFFFF;
+	
+}
+
+.footer {
+	font-size: 12px;
+}
