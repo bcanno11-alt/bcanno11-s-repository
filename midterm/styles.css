@@ -10,15 +10,21 @@ header {
 	border-style: solid;
 	border-width: 2px;
 }
+p{
+	color: black;
+}
+li{
+	color: black;
+}
 img {
     float: left;
-	height: 180px;
-	width: 162px;
+	height: 50px;
+	width: 50px;
 }
-nav{
-	text-decoration: none;
+.navigation{
+	text-align: center;
 }
-a{	
+nav a{
 	font-family: Courier, monospace;
 	font-size: 24px;
 	color: black;
@@ -26,7 +32,10 @@ a{
 	border-width: 2px;
 	text-decoration: none;
 }
-a:hover {
+a{	
+	
+}
+nav a:hover {
 	font-family: Courier, monospace;
 	font-size: 24px;
 	color: black;
@@ -35,7 +44,7 @@ a:hover {
 	font-weight: bold;
 }
 main {
-	background-color: #FFFFFF;
+	color: black;
 	
 }
 .footer {
