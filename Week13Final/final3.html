@@ -41,13 +41,19 @@
 			 <label for="message">Description:</label>
 			 <textarea id="message" name="message" rows="5">
 			 </textarea>
-			 <label for="op1">Have you encontered this problem multiple times?:</label>
-			 <label><input type="radio" id="q1" name="q1">Yes</label>
-			 <label><input type="radio" id="q2" name="n2">No</label>
-			 <label for="op2">Has this bug caused any of these problems?:</label>
-			 <label><input type="checkbox" id="q3" name="q3">Crashing</label>
-			 <label><input type="checkbox" id="q4" name="q4">Map wont compile</label>
-			 <label><input type="checkbox" id="q5" name="q5">Freezing</label>
+			 <p>Have you encontered this problem multiple times?:</p>
+			 <input type="radio" id="yes" name="answer">
+				<label for="yes">Yes</label>
+			 <input type="radio" id="no" name="answer2">
+				<label for="no">No</label>
+			 <p>Has this bug caused any of these problems?:</p>
+			 <input type="checkbox" id="crash" name="answer3">
+				<label for="crash">Crashing</label>
+			 <input type="checkbox" id="comp" name="answer4">
+				<label for="comp">Map wont compile</label>
+			 <input type="checkbox" id="freeze" name="answer5">
+				<label for="freeze">Freezing</label>
+			 
 			 <input type="submit" value="Submit">
 			 <input type="reset" id="reset" name="reset">
 		</form>
