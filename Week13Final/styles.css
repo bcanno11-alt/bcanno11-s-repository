@@ -1,0 +1,136 @@
+header{
+	background-color: black;
+	color: lime;
+	text-align: center;
+}
+p{
+	font-size: 18px;
+}
+
+nav{
+	text-align: center;
+	color: lime;
+}
+nav a{
+	color: lime;
+	border: lime;
+	border-width: 2px;
+	border-style: solid;
+	text-decoration: none;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+nav ul li{
+	display: inline;
+}
+
+body{
+	text-align: center;
+	background-color: black;
+	color: lime;
+}
+table{
+	margin: auto;
+	border: lime;
+	border-width: 2px;
+	border-style: solid;
+	
+}
+th{
+	border: solid 2px lime;
+	padding: 0.5em;
+	text-align: center;
+}
+footer{
+	text-align: center;
+	color: lime;
+}
+
+.picsize1{
+	width: 35%;
+	height: 35%;
+}
+.picsize2{
+	width: 25%;
+	height: 25%;
+}
+.picsize3{
+	width: 10%;
+	height: 10%;
+}
+.gamepics img{
+	align-items: center;
+	justify-content: center;
+	width: 10%;
+	height: 10%;
+}
+form{
+	display: flex;
+	max-width: 30em;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+}
+input{
+	margin-bottom: 0.5em;
+}
+select{
+	margin-bottom: 0.5em;
+}
+textarea{
+	margin-bottom: 0.5em;
+}
+@media only screen and (max-width: 768px) {
+	.gamepics{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		
+	}
+	form{
+		display: grid;
+		width: 60%;
+		max-width: 30em;
+		gap: 1em;
+		grid-template-columns: 6em 1fr;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	form > input[type="submit"]{
+		grid-column: 2;
+		width: 10em;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.gamepics{
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+		form{
+		display: grid;
+		width: 60%;
+		max-width: 30em;
+		gap: 1em;
+		grid-template-columns: 6em 1fr;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	form > input[type="submit"]{
+		grid-column: 2;
+		width: 10em;
+	}
+}
